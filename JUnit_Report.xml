@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Login" time="80.849" tests="1" failures="0" errors="0">
+   <testsuite name="TS - Login" tests="1" failures="0" errors="0" time="80.849" skipped="0" timestamp="18-11-2024T01:21:51" hostname="runner - Mac-1731892408916.local" id="Test Suites/Web/TS - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/runner/work/sample-bdd-project-in-katalon-latest-version/sample-bdd-project-in-katalon-latest-version/Reports/20241118_012031/Web/TS - Login/20241118_012139"/>
+         <property name="logFiles" value="/Users/runner/work/sample-bdd-project-in-katalon-latest-version/sample-bdd-project-in-katalon-latest-version/Reports/20241118_012031/Web/TS - Login/20241118_012139/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-User opens the login page.png, keyes/keyes-User types username into the Username field.png, keyes/keyes-User types password into the Username field.png, keyes/keyes-User verifies the Logged In Successfully message.png, keyes/keyes-User opens the login page.png, keyes/keyes-User types username into the Username field.png, keyes/keyes-User types password into the Username field.png, keyes/keyes-User verifies the Log In Failed message.png, keyes/keyes-User opens the login page.png, keyes/keyes-User types username into the Username field.png, keyes/keyes-User types password into the Username field.png, keyes/keyes-User verifies the Log In Failed message.png"/>
+         <property name="hostName" value="runner - Mac-1731892408916.local"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.64.2"/>
+         <property name="sessionId" value="c8dfe920ebca3429d8f874c06258a914"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web/Authentication/TC - Login" time="80.403" classname="Test Cases/Web/Authentication/TC - Login" status="PASSED">
+         <system-out><![CDATA[18-11-2024T01:21:51 - [TEST_CASE][PASSED] - Test Cases/Web/Authentication/TC - Login: Test Cases/Web/Authentication/TC - Login
+
+18-11-2024T01:21:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+18-11-2024T01:21:52 - [TEST_STEP][PASSED] - GLUE = ["common", "web", "mobile"]: null
+
+18-11-2024T01:21:52 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Web/Authentication/Login.feature", ["@WebLogin"]): Feature file: 'Include/features/Web/Authentication/Login.feature' was passed
+
+18-11-2024T01:21:52 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Web/Authentication/Login.feature' and extract report to folder: '/Users/runner/work/sample-bdd-project-in-katalon-latest-version/sample-bdd-project-in-katalon-latest-version/Reports/20241118_012031/Web/TS - Login/20241118_012139/cucumber_report/1731892912301'...
+
+18-11-2024T01:21:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with various credentials: SCENARIO Test login with various credentials
+
+18-11-2024T01:21:53 - [TEST_STEP][PASSED] - User opens the login page: User opens the login page
+
+18-11-2024T01:21:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-11-2024T01:21:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-11-2024T01:22:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-11-2024T01:22:11 - [MESSAGE][PASSED] - Current window maximized
+
+18-11-2024T01:22:17 - [MESSAGE][PASSED] - Navigate to 'https://practicetestautomation.com/practice-test-login/' successfully
+
+18-11-2024T01:22:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User opens the login page.png]]
+
+18-11-2024T01:22:18 - [MESSAGE][PASSED] - User opens the login page
+
+18-11-2024T01:22:18 - [TEST_STEP][PASSED] - User types username student into the Username field: User types username student into the Username field
+
+18-11-2024T01:22:22 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Web/Login Page/textFieldUsername'
+
+18-11-2024T01:22:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types username into the Username field.png]]
+
+18-11-2024T01:22:23 - [MESSAGE][PASSED] - User types username student into the Username field
+
+18-11-2024T01:22:23 - [TEST_STEP][PASSED] - User types password Password123 into the Password field: User types password Password123 into the Password field
+
+18-11-2024T01:22:25 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/Web/Login Page/textFieldPassword'
+
+18-11-2024T01:22:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types password into the Username field.png]]
+
+18-11-2024T01:22:26 - [MESSAGE][PASSED] - User types password Password123 into the Password field
+
+18-11-2024T01:22:26 - [TEST_STEP][PASSED] - User clicks the Submit button: User clicks the Submit button
+
+18-11-2024T01:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Login Page/buttonSubmit' is clicked on
+
+18-11-2024T01:22:29 - [MESSAGE][PASSED] - User clicks the Submit button
+
+18-11-2024T01:22:29 - [TEST_STEP][PASSED] - User verifies the message Logged In Successfully is displayed: User verifies the message Logged In Successfully is displayed
+
+18-11-2024T01:22:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web/Homepage/headerText' are matched.
+
+18-11-2024T01:22:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User verifies the Logged In Successfully message.png]]
+
+18-11-2024T01:22:31 - [MESSAGE][PASSED] - User verifies the message Logged In Successfully is displayed
+
+18-11-2024T01:22:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with various credentials: SCENARIO Test login with various credentials
+
+18-11-2024T01:22:31 - [TEST_STEP][PASSED] - User opens the login page: User opens the login page
+
+18-11-2024T01:22:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-11-2024T01:22:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-11-2024T01:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-11-2024T01:22:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-11-2024T01:22:38 - [MESSAGE][PASSED] - Current window maximized
+
+18-11-2024T01:22:43 - [MESSAGE][PASSED] - Navigate to 'https://practicetestautomation.com/practice-test-login/' successfully
+
+18-11-2024T01:22:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User opens the login page.png]]
+
+18-11-2024T01:22:45 - [MESSAGE][PASSED] - User opens the login page
+
+18-11-2024T01:22:45 - [TEST_STEP][PASSED] - User types username incorrectUser into the Username field: User types username incorrectUser into the Username field
+
+18-11-2024T01:22:47 - [MESSAGE][PASSED] - Text 'incorrectUser' is set on object 'Object Repository/Web/Login Page/textFieldUsername'
+
+18-11-2024T01:22:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types username into the Username field.png]]
+
+18-11-2024T01:22:47 - [MESSAGE][PASSED] - User types username incorrectUser into the Username field
+
+18-11-2024T01:22:47 - [TEST_STEP][PASSED] - User types password Password123 into the Password field: User types password Password123 into the Password field
+
+18-11-2024T01:22:49 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/Web/Login Page/textFieldPassword'
+
+18-11-2024T01:22:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types password into the Username field.png]]
+
+18-11-2024T01:22:49 - [MESSAGE][PASSED] - User types password Password123 into the Password field
+
+18-11-2024T01:22:49 - [TEST_STEP][PASSED] - User clicks the Submit button: User clicks the Submit button
+
+18-11-2024T01:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Login Page/buttonSubmit' is clicked on
+
+18-11-2024T01:22:50 - [MESSAGE][PASSED] - User clicks the Submit button
+
+18-11-2024T01:22:50 - [TEST_STEP][PASSED] - User verifies the message Your username is invalid! is displayed: User verifies the message Your username is invalid! is displayed
+
+18-11-2024T01:22:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web/Login Page/messageError' are matched.
+
+18-11-2024T01:22:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:22:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User verifies the Log In Failed message.png]]
+
+18-11-2024T01:22:51 - [MESSAGE][PASSED] - User verifies the message Your username is invalid! is displayed
+
+18-11-2024T01:22:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Test login with various credentials: SCENARIO Test login with various credentials
+
+18-11-2024T01:22:51 - [TEST_STEP][PASSED] - User opens the login page: User opens the login page
+
+18-11-2024T01:22:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-11-2024T01:22:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-11-2024T01:22:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-11-2024T01:22:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-11-2024T01:22:59 - [MESSAGE][PASSED] - Current window maximized
+
+18-11-2024T01:23:04 - [MESSAGE][PASSED] - Navigate to 'https://practicetestautomation.com/practice-test-login/' successfully
+
+18-11-2024T01:23:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:23:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User opens the login page.png]]
+
+18-11-2024T01:23:04 - [MESSAGE][PASSED] - User opens the login page
+
+18-11-2024T01:23:04 - [TEST_STEP][PASSED] - User types username student into the Username field: User types username student into the Username field
+
+18-11-2024T01:23:07 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Web/Login Page/textFieldUsername'
+
+18-11-2024T01:23:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:23:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types username into the Username field.png]]
+
+18-11-2024T01:23:07 - [MESSAGE][PASSED] - User types username student into the Username field
+
+18-11-2024T01:23:07 - [TEST_STEP][PASSED] - User types password incorrectPassword into the Password field: User types password incorrectPassword into the Password field
+
+18-11-2024T01:23:09 - [MESSAGE][PASSED] - Text 'incorrectPassword' is set on object 'Object Repository/Web/Login Page/textFieldPassword'
+
+18-11-2024T01:23:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:23:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User types password into the Username field.png]]
+
+18-11-2024T01:23:09 - [MESSAGE][PASSED] - User types password incorrectPassword into the Password field
+
+18-11-2024T01:23:09 - [TEST_STEP][PASSED] - User clicks the Submit button: User clicks the Submit button
+
+18-11-2024T01:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web/Login Page/buttonSubmit' is clicked on
+
+18-11-2024T01:23:10 - [MESSAGE][PASSED] - User clicks the Submit button
+
+18-11-2024T01:23:10 - [TEST_STEP][PASSED] - User verifies the message Your password is invalid! is displayed: User verifies the message Your password is invalid! is displayed
+
+18-11-2024T01:23:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web/Login Page/messageError' are matched.
+
+18-11-2024T01:23:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+18-11-2024T01:23:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-User verifies the Log In Failed message.png]]
+
+18-11-2024T01:23:11 - [MESSAGE][PASSED] - User verifies the message Your password is invalid! is displayed
+
+18-11-2024T01:23:12 - [MESSAGE][PASSED] - Feature file: 'Include/features/Web/Authentication/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-11-2024T01:21:51 - [TEST_SUITE][PASSED] - TS - Login: Test Cases/Web/Authentication/TC - Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

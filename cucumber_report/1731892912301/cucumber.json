@@ -1,0 +1,301 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25381485583,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4710413833,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username student into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "student",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3151251750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password Password123 into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2909677542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594372333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Logged In Successfully is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logged In Successfully",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13770398375,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2821275833,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username incorrectUser into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectUser",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1828134750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password Password123 into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981596916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185976542,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Your username is invalid! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your username is invalid!",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13042589333,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2746073667,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username student into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "student",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1928375459,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password incorrectPassword into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectPassword",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089669916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204207458,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Your password is invalid! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your password is invalid!",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "/Users/runner/work/sample-bdd-project-in-katalon-latest-version/sample-bdd-project-in-katalon-latest-version/Include/features/Web/Authentication/Login.feature",
+    "tags": [
+      {
+        "name": "@WebLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

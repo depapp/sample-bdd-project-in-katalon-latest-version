@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="78.571503">
+    <testcase classname="Login functionality" name="Test login with various credentials" time="37.886916">
+        <system-out><![CDATA[Given User opens the login page.............................................passed
+When User types username student into the Username field....................passed
+And User types password Password123 into the Password field.................passed
+And User clicks the Submit button...........................................passed
+Then User verifies the message Logged In Successfully is displayed..........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="Test login with various credentials 2" time="20.627911">
+        <system-out><![CDATA[Given User opens the login page.............................................passed
+When User types username incorrectUser into the Username field..............passed
+And User types password Password123 into the Password field.................passed
+And User clicks the Submit button...........................................passed
+Then User verifies the message Your username is invalid! is displayed.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="Test login with various credentials 3" time="20.056676">
+        <system-out><![CDATA[Given User opens the login page.............................................passed
+When User types username student into the Username field....................passed
+And User types password incorrectPassword into the Password field...........passed
+And User clicks the Submit button...........................................passed
+Then User verifies the message Your password is invalid! is displayed.......passed
+]]></system-out>
+    </testcase>
+</testsuite>

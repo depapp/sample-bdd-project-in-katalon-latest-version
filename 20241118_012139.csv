@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Login,Chrome 130.0.0.0,,,18-11-2024 01:21:51,18-11-2024 01:23:12,1m - 20.849s,PASSED
+,,,,,,,
+Test Cases/Web/Authentication/TC - Login,Chrome 130.0.0.0,,,18-11-2024 01:21:51,18-11-2024 01:23:12,1m - 20.403s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 130.0.0.0,,,18-11-2024 01:21:51,18-11-2024 01:21:52,0.059s,PASSED
+"runFeatureFileWithTags(""Include/features/Web/Authentication/Login.feature"", [""@WebLogin""])",Chrome 130.0.0.0,,,18-11-2024 01:21:52,18-11-2024 01:23:12,1m - 20.056s,PASSED

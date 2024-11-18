@@ -1,0 +1,319 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "89043268-e4c3-414c-9777-5a160b4157ec",
+        "line": 13,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25381485583,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7b974bfa-4ad1-491f-85f6-dbeca3a67f35"
+          },
+          {
+            "result": {
+              "duration": 4710413833,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username student into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "student",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f8fe7346-0b48-485a-bbb5-cc4d3f386a21"
+          },
+          {
+            "result": {
+              "duration": 3151251750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password Password123 into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4932a051-9f60-4097-b0ce-e914fb4941d3"
+          },
+          {
+            "result": {
+              "duration": 2909677542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9c796a58-fbbd-4b7f-a9b5-955ab9f4ec5d"
+          },
+          {
+            "result": {
+              "duration": 1594372333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Logged In Successfully is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logged In Successfully",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8c0cf825-95bf-4f14-a923-eca7289f5c0a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "83757e06-27d2-4d36-8f46-f55444a7a7b2",
+        "line": 14,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13770398375,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ff9933e1-2033-4d44-bde3-7fbadbba37fb"
+          },
+          {
+            "result": {
+              "duration": 2821275833,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username incorrectUser into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectUser",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "77c84643-585f-44b0-9170-f5634fa7123b"
+          },
+          {
+            "result": {
+              "duration": 1828134750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password Password123 into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f8b487f5-bab9-4dbc-bc0e-9534f9bba9cc"
+          },
+          {
+            "result": {
+              "duration": 981596916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b7ece37b-0722-48ab-acfd-8457c444e332"
+          },
+          {
+            "result": {
+              "duration": 1185976542,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Your username is invalid! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your username is invalid!",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "5de8ab95-738c-492b-b894-1db56dd86b8d"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "6e38bbb9-d854-44cf-ac11-87426f4733dd",
+        "line": 15,
+        "name": "Test login with various credentials",
+        "description": "",
+        "id": "login-functionality;test-login-with-various-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13042589333,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens the login page",
+            "match": {
+              "location": "Common.openLoginPage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4d201101-8ac9-4762-88dc-317ac7a58244"
+          },
+          {
+            "result": {
+              "duration": 2746073667,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types username student into the Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "student",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterUsername(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "31c22eb4-8be5-4185-89ee-632cf8c9b264"
+          },
+          {
+            "result": {
+              "duration": 1928375459,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User types password incorrectPassword into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectPassword",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginSteps.enterPassword(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0765ed25-5905-4d91-b244-26a5c5f665b0"
+          },
+          {
+            "result": {
+              "duration": 1089669916,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the Submit button",
+            "match": {
+              "location": "LoginSteps.clickSubmitButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "54b98677-e4b0-4164-87f2-5cd13c0cb796"
+          },
+          {
+            "result": {
+              "duration": 1204207458,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verifies the message Your password is invalid! is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your password is invalid!",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.verifyMessageDisplayed(String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "fcd3bab9-01bd-44e5-adfc-130dfa9c76a9"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "/Users/runner/work/sample-bdd-project-in-katalon-latest-version/sample-bdd-project-in-katalon-latest-version/Include/features/Web/Authentication/Login.feature",
+    "tags": [
+      {
+        "name": "@WebLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
