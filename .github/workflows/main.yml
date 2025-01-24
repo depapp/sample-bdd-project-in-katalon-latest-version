@@ -27,6 +27,14 @@ jobs:
           name: Katalon-Reports
           path: Reports/
 
+    - name: Katalon Report Uploader
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+        PASSWORD: ${{ secrets.KATALON_REPORT_PASSWORD }}
+        PROJECT_ID: ${{ secrets.KATALON_REPORT_PROJECT_ID }}
+        TYPE: katalon
+        REPORT_PATH: Reports
+
     - name: Deploy Test Report to GitHub Pages
       if: success()
       run: |
